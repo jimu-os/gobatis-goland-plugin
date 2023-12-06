@@ -1,0 +1,56 @@
+<templateSet group="AuroraEngine">
+    <!--<template name="Get"
+              value="Get(&quot;$URL$&quot;,$END$)"
+              description="Get Http"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="URL" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Get" value="true"/>
+        </context>
+    </template>
+
+    <template name="Post"
+              value="Post(&quot;$URL$&quot;,$END$)"
+              description="Post Http"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="URL" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Post" value="true"/>
+        </context>
+    </template>
+
+    <template name="Put"
+              value="Put(&quot;$URL$&quot;,$END$)"
+              description="Put Http"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="URL" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Put" value="true"/>
+        </context>
+    </template>
+
+    <template name="Delete"
+              value="Delete(&quot;$URL$&quot;,$END$)"
+              description="Delete Http"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="URL" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Delete" value="true"/>
+        </context>
+    </template>
+
+    <template name="Group"
+              value="Group(&quot;$URL$&quot;)$END$"
+              description="Http Group"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="URL" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Group" value="true"/>
+        </context>
+    </template>-->
+</templateSet>

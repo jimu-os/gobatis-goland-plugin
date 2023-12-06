@@ -1,0 +1,64 @@
+<idea-plugin>
+    <id>org.aurora.gobatis-goland-plugin</id>
+    <name>GoBatis</name>
+    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+  ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.xml</depends>
+    <depends>com.intellij.modules.go-capable</depends>
+    <depends>org.jetbrains.plugins.go</depends>
+    <depends>org.jetbrains.plugins.yaml</depends>
+    <depends>com.jetbrains.restClient</depends>
+    <depends>com.intellij.database</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- 启动运行 -->
+        <postStartupActivity implementation="org.aurora.plugin.Startup"/>
+        <!-- 冒泡消息通知-->
+        <notificationGroup displayType="BALLOON" id="Aurora Notification"/>
+
+        <!-- GoBatis Mapper 资源跳转扩展-->
+        <gotoDeclarationHandler implementation="org.aurora.gobatis.editor.navigation.MapperNavigation"/>
+        <!-- GoBatis Mapper 结构体扫描标记 -->
+        <codeInsight.lineMarkerProvider implementationClass="org.aurora.gobatis.mark.mapper.func.MapperFuncLineMarker"
+                                        language="go"/>
+        <!-- GoBatis mapper.xml SQL语法提示 -->
+        <languageInjectionContributor language="XML" implementationClass="org.aurora.gobatis.Injector.MapperInjector"/>
+        <!-- GoBatis mapper.xml 语法报错问题处理 -->
+        <highlightErrorFilter implementation="org.aurora.gobatis.Injector.SQLHighlightErrorFilter"/>
+        <!-- 文件图标接口 -->
+        <iconProvider implementation="org.aurora.Icons.AuroraFrameworkIcon"/>
+
+        <!--  GoBatis  Go 自定义代码模板 支持 GoBatis 结构体 Tag支持     -->
+        <defaultLiveTemplates file="/liveTemplates/GoBatisTag.xml"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.GoBatisContext" contextId="GoBatis"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.GoBatisTag" contextId="GoBatisTag"/>
+
+        <!-- GoBatis  XML 代码实时模板  -->
+        <defaultLiveTemplates file="/liveTemplates/GoBatisXmlTag.xml"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.xml.GoBatisSelectTag" contextId="Select"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.xml.GoBatisUpdateTag" contextId="Update"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.xml.GoBatisInsertTag" contextId="Insert"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.xml.GoBatisDeleteTag" contextId="Delete"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.xml.GoBatisIfTag" contextId="If"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.xml.GoBatisIdAttr" contextId="Id"/>
+        <liveTemplateContext implementation="org.aurora.gobatis.template.xml.GoBatisExprAttr" contextId="Expr"/>
+
+        <!-- GoBatis 定义xml标签名代码称提示 -->
+        <xml.tagNameProvider implementation="org.aurora.gobatis.xml.GoBatisTag"/>
+        <!-- GoBatis 快捷生成结构体标签  -->
+        <intentionAction>
+            <language>go</language>
+            <className>org.aurora.gobatis.template.MappingTemplate</className>
+            <category>GoBatis gen mapping</category>
+        </intentionAction>
+
+        <!--   新UI 图标映射     -->
+        <iconMapper mappingFile="Aurora EngineIconMappings.json"/>
+    </extensions>
+</idea-plugin>

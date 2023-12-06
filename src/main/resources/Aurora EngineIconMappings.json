@@ -1,0 +1,10 @@
+{
+  "icons": {
+    "newUI": {
+      "select.svg": "icons/select.svg",
+      "insert.svg": "icons/insert.svg",
+      "update.svg": "icons/update.svg",
+      "delete.svg": "icons/delete.svg"
+    }
+  }
+}

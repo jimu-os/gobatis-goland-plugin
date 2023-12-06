@@ -1,0 +1,72 @@
+<templateSet group="GoBatis">
+
+    <template name="select" value="&lt;select id=&quot;$ID$&quot;&gt; $END$ &lt;/select&gt;"
+              description="Create GoBatis Mapping Tag"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="ID" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Select" value="true"/>
+        </context>
+    </template>
+
+    <template name="update" value="&lt;update id=&quot;$ID$&quot;&gt;  $END$  &lt;/update&gt;"
+              description="Create GoBatis Mapping Tag"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="ID" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Update" value="true"/>
+        </context>
+    </template>
+
+    <template name="insert" value="&lt;insert id=&quot;$ID$&quot;&gt;  $END$  &lt;/insert&gt;"
+              description="Create GoBatis Mapping Tag"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="ID" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Insert" value="true"/>
+        </context>
+    </template>
+
+    <template name="delete" value="&lt;delete id=&quot;$ID$&quot;&gt;  $END$  &lt;/delete&gt;"
+              description="Create GoBatis Mapping Tag"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="ID" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Delete" value="true"/>
+        </context>
+    </template>
+
+    <template name="if" value="&lt;if expr=&quot;{$ID$}&quot;&gt;  $END$  &lt;/if&gt;"
+              description="Create GoBatis Mapping Tag"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="ID" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="If" value="true"/>
+        </context>
+    </template>
+
+    <template name="id" value="id =&quot;$ID$&quot;$END$"
+              description="id attribute"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="ID" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Id" value="true"/>
+        </context>
+    </template>
+
+    <template name="expr" value="expr =&quot;{$ID$}&quot;$END$"
+              description="expr attribute"
+              toReformat="false"
+              toShortenFQNames="false">
+        <variable name="ID" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="Expr" value="true"/>
+        </context>
+    </template>
+</templateSet>

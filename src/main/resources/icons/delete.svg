@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 2048 2048">
+	<rect fill-opacity="1" x="0" y="0" width="2048" height="2048" rx="128" ry="128" fill="#f00000"></rect>
+	<g transform="scale(1)"><path fill-opacity="1" transform="translate(368.64, 1781.28) rotate(180) scale(-1, 1)" fill="#f5f5f5" d="M791 961v595h292v-1556h-292v166q-47 -97 -121.5 -146t-175.5 -49q-192 0 -298 154t-106 434q0 284 107.5 436t306.5 152q90 0 161.5 -46.5t125.5 -139.5zM383 557q0 -162 54 -254t149 -92t150 92t55 254t-55 254t-150 92t-149 -92t-54 -254z"></path></g>
+</svg>
