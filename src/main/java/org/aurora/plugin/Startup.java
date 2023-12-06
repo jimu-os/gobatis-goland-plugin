@@ -6,7 +6,6 @@ import com.goide.psi.*;
 import com.goide.psi.impl.GoStructTypeImpl;
 import com.goide.vgo.mod.VgoFileType;
 import com.goide.vgo.mod.psi.VgoFile;
-import com.intellij.openapi.application.Application;
 import com.intellij.openapi.application.ReadAction;
 import com.intellij.openapi.fileTypes.FileType;
 import com.intellij.openapi.project.Project;
@@ -18,6 +17,7 @@ import com.intellij.psi.PsiManager;
 import com.intellij.psi.util.PsiTreeUtil;
 import kotlin.Unit;
 import kotlin.coroutines.Continuation;
+import com.intellij.openapi.diagnostic.Logger;
 import org.aurora.gobatis.MapperPsi;
 import org.aurora.gobatis.mark.mapper.func.MapperInfo;
 import org.go.GoProject;
@@ -34,26 +34,14 @@ import java.util.concurrent.ConcurrentHashMap;
  *   项目启动调用
  * */
 public class Startup implements ProjectActivity {
-
-    /*
-     *   StartupActivity runActivity
-     * */
-    public void runActivity(@NotNull Project project) {
-        // 初始化 mod 信息
-        String basePath = project.getBasePath();
-        LocalFileSystem fileSystem = LocalFileSystem.getInstance();
-        if (basePath == null) return;
-        VirtualFile rootPath = fileSystem.findFileByPath(basePath);
-        PsiManager instance = PsiManager.getInstance(project);
-        GoProject.mods = ScanGoModule(rootPath, instance);
-    }
-
+    private static final Logger LOG = Logger.getInstance(Startup.class);
 
     @Nullable
     @Override
     public Object execute(@NotNull Project project, @NotNull Continuation<? super Unit> continuation) {
         ReadAction.run(() -> {
             // 初始化 mod 信息
+            LOG.debug("init project go mod");
             String basePath = project.getBasePath();
             LocalFileSystem fileSystem = LocalFileSystem.getInstance();
             if (basePath == null) return;
@@ -63,7 +51,7 @@ public class Startup implements ProjectActivity {
             GoProject.mods = ScanGoModule(rootPath, instance);
             LocalFileSystem.getInstance().refresh(true);
         });
-        return true;
+        return null;
     }
 
     /*
@@ -117,7 +105,7 @@ public class Startup implements ProjectActivity {
         Collection<? extends GoTypeSpec> types = goFile.getTypes();
         for (GoTypeSpec spec : types) {
             PsiElement lastChild = spec.getLastChild();
-            if (lastChild==null) continue;
+            if (lastChild == null) continue;
             PsiElement firstChild = lastChild.getFirstChild();
             if (firstChild == null) continue;
             GoStructTypeImpl structType = PsiTreeUtil.getNextSiblingOfType(firstChild, GoStructTypeImpl.class);

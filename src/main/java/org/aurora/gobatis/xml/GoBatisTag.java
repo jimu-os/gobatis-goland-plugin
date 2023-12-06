@@ -1,4 +1,4 @@
-package org.gobatis.xml;
+package org.aurora.gobatis.xml;
 
 import com.goide.GoIcons;
 import com.intellij.codeInsight.completion.PrioritizedLookupElement;
