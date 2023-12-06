@@ -1,4 +1,4 @@
-package org.aurora.utils;
+package org.go;
 
 public class PluginUtil {
 }

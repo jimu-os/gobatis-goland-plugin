@@ -6,6 +6,8 @@ import com.goide.psi.*;
 import com.goide.psi.impl.GoStructTypeImpl;
 import com.goide.vgo.mod.VgoFileType;
 import com.goide.vgo.mod.psi.VgoFile;
+import com.intellij.openapi.application.Application;
+import com.intellij.openapi.application.ReadAction;
 import com.intellij.openapi.fileTypes.FileType;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.startup.ProjectActivity;
@@ -18,13 +20,12 @@ import kotlin.Unit;
 import kotlin.coroutines.Continuation;
 import org.aurora.gobatis.MapperPsi;
 import org.aurora.gobatis.mark.mapper.func.MapperInfo;
-import org.aurora.key.Key;
+import org.go.GoProject;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.aurora.GoModule.Module;
+import org.go.GoMod;
 
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -51,27 +52,29 @@ public class Startup implements ProjectActivity {
     @Nullable
     @Override
     public Object execute(@NotNull Project project, @NotNull Continuation<? super Unit> continuation) {
-        // 初始化 mod 信息
-        String basePath = project.getBasePath();
-        LocalFileSystem fileSystem = LocalFileSystem.getInstance();
-        if (basePath == null) return false;
-        VirtualFile rootPath = fileSystem.findFileByPath(basePath);
-        if (rootPath == null) return false;
-        PsiManager instance = PsiManager.getInstance(project);
-        GoProject.mods = ScanGoModule(rootPath, instance);
-        LocalFileSystem.getInstance().refresh(true);
+        ReadAction.run(() -> {
+            // 初始化 mod 信息
+            String basePath = project.getBasePath();
+            LocalFileSystem fileSystem = LocalFileSystem.getInstance();
+            if (basePath == null) return;
+            VirtualFile rootPath = fileSystem.findFileByPath(basePath);
+            if (rootPath == null) return;
+            PsiManager instance = PsiManager.getInstance(project);
+            GoProject.mods = ScanGoModule(rootPath, instance);
+            LocalFileSystem.getInstance().refresh(true);
+        });
         return true;
     }
 
     /*
      *   扫描 root下的 mod 模块
      * */
-    public static ConcurrentHashMap<VirtualFile, Module> ScanGoModule(VirtualFile root, PsiManager manager) {
-        ConcurrentHashMap<VirtualFile, Module> mod = new ConcurrentHashMap<>();
+    public static ConcurrentHashMap<VirtualFile, GoMod> ScanGoModule(VirtualFile root, PsiManager manager) {
+        ConcurrentHashMap<VirtualFile, GoMod> mod = new ConcurrentHashMap<>();
         if (root.isDirectory()) {
             VirtualFile[] files = root.getChildren();
             for (VirtualFile file : files) {
-                Map<VirtualFile, Module> mods = ScanGoModule(file, manager);
+                Map<VirtualFile, GoMod> mods = ScanGoModule(file, manager);
                 mod.putAll(mods);
             }
             return mod;
@@ -82,12 +85,12 @@ public class Startup implements ProjectActivity {
             String name = modFile.getModuleName();
             VirtualFile parent = root.getParent();
             //  初始化模块信息存储数据
-            Module module = new Module();
-            module.Root = parent;
-            module.Name = name;
-            module.vgoFile = modFile;
-            module.Mapper = ScanMapper(parent, manager);
-            mod.put(parent, module);
+            GoMod goMod = new GoMod();
+            goMod.Root = parent;
+            goMod.Name = name;
+            goMod.vgoFile = modFile;
+            goMod.Mapper = ScanMapper(parent, manager);
+            mod.put(parent, goMod);
         }
         return mod;
     }

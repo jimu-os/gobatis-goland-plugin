@@ -12,12 +12,12 @@ import com.intellij.psi.util.PsiTreeUtil;
 import com.intellij.psi.xml.XmlTag;
 import org.aurora.gobatis.mark.mapper.func.MapperInfo;
 import org.aurora.key.Key;
-import org.aurora.plugin.GoProject;
-import org.aurora.utils.GoUtil;
+import org.go.GoProject;
+import org.go.GoUtil;
 import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.aurora.GoModule.Module;
+import org.go.GoMod;
 
 public class MapperNavigation implements GotoDeclarationHandler {
     @Override
@@ -47,8 +47,8 @@ public class MapperNavigation implements GotoDeclarationHandler {
         Project project = psiFile.getProject();
         VirtualFile virtualFile = psiFile.getVirtualFile();
         VirtualFile modRoot = GoUtil.GetGoModRoot(project, virtualFile, Key.go_mod);
-        Module module = GoProject.mods.get(modRoot);
-        MapperInfo mapperInfo = module.Mapper.get(namespace + "." + text);
+        GoMod goMod = GoProject.mods.get(modRoot);
+        MapperInfo mapperInfo = goMod.Mapper.get(namespace + "." + text);
         if (mapperInfo == null) {
             return new PsiElement[0];
         }
