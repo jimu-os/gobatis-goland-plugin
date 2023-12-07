@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="修复 sql生成golang 结构体过时的api">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aurora/tool/ORMToolWindowFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/ORMToolWindowFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +89,7 @@
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/src/main/java/org/aurora",
+    "last_opened_file_path": "C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/src/main/resources/META-INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,6 +101,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\awen\Desktop\Projects\Java\gobatis-goland-plugin\gobatis-goland-plugin\src\main\resources\META-INF" />
       <recent name="C:\Users\awen\Desktop\Projects\Java\gobatis-goland-plugin\gobatis-goland-plugin\src\main\java\org\aurora" />
       <recent name="C:\Users\awen\Desktop\Projects\Java\gobatis-goland-plugin\gobatis-goland-plugin\src\main\resources" />
       <recent name="C:\Users\awen\Desktop\Projects\Java\gobatis-goland-plugin\gobatis-goland-plugin\src\main\java" />
@@ -206,7 +204,7 @@
       <workItem from="1701849171396" duration="5298000" />
       <workItem from="1701856789989" duration="58000" />
       <workItem from="1701857022563" duration="12531000" />
-      <workItem from="1701909679255" duration="3716000" />
+      <workItem from="1701909679255" duration="3880000" />
     </task>
     <task id="LOCAL-00001" summary="修复加载标记的读取错误">
       <option name="closed" value="true" />
@@ -224,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701911904501</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1701915365920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915365920</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修复加载标记的读取错误" />
     <MESSAGE value="修复 sql生成golang 结构体过时的api" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复 sql生成golang 结构体过时的api" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
