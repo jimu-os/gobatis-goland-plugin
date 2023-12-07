@@ -13,11 +13,11 @@ import com.intellij.psi.PsiManager;
 import com.intellij.psi.impl.source.xml.XmlTagImpl;
 import com.intellij.psi.util.PsiTreeUtil;
 import com.intellij.psi.xml.XmlTag;
-import org.aurora.AuroraFramework;
+import org.go.GoPlugin;
 import org.aurora.gobatis.mark.mapper.func.MapperFuncMgmtNavigationHandler;
 import org.aurora.gobatis.mark.mapper.func.MapperInfo;
 import org.aurora.key.Key;
-import org.aurora.utils.GoUtil;
+import org.go.GoUtil;
 
 import java.util.Objects;
 
@@ -38,7 +38,7 @@ public class MapperPsi {
                 String structName = firstChild.getText();
                 MapperInfo modMapper = isModMapper(element, structName);
                 if (modMapper != null) {
-                    AuroraFramework.Mapper.put(modMapper.getId(), modMapper);
+                    GoPlugin.Mapper.put(modMapper.getId(), modMapper);
                 }
                 return modMapper;
             }
@@ -64,7 +64,7 @@ public class MapperPsi {
         if (mapperInfo != null) {
             mapperInfo.setMapper(goFile);
             mapperInfo.setElement(element);
-            AuroraFramework.Mapper.put(mapperInfo.Id(), mapperInfo);
+            GoPlugin.Mapper.put(mapperInfo.Id(), mapperInfo);
         }
         return mapperInfo;
     }

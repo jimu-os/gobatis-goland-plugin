@@ -1,4 +1,4 @@
-package org.aurora.utils;
+package org.go;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.VirtualFile;

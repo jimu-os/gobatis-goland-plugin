@@ -13,12 +13,12 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
-    version.set("2023.2")
+    version.set("2023.3")
     type.set("GO")
     plugins.set(
             listOf(
-                    "org.jetbrains.plugins.go:232.8660.142",
-                    "org.jetbrains.plugins.yaml:232.8660.88",
+                    "org.jetbrains.plugins.go:233.11799.196",
+                    "org.jetbrains.plugins.yaml:233.11799.165",
                     "com.jetbrains.restClient",
                     "org.intellij.intelliLang",
                     "com.intellij.database"
@@ -35,8 +35,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("232")
-        untilBuild.set("232.*")
+        sinceBuild.set("233")
+        untilBuild.set("233.*")
     }
 
     signPlugin {

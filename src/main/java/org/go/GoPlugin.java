@@ -1,30 +1,18 @@
-package org.aurora;
+package org.go;
 
-import com.goide.psi.GoFile;
-import com.intellij.codeInsight.completion.CompletionParameters;
-import com.intellij.codeInsight.completion.CompletionResultSet;
-import com.intellij.openapi.editor.Document;
-import com.intellij.openapi.editor.Editor;
-import com.intellij.openapi.fileEditor.FileDocumentManager;
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.vfs.LocalFileSystem;
 import com.intellij.openapi.vfs.VirtualFile;
-import com.intellij.psi.PsiFile;
-import com.intellij.psi.PsiManager;
-import com.intellij.psi.xml.XmlFile;
 import org.aurora.gobatis.mark.mapper.func.MapperInfo;
 import org.jetbrains.yaml.YAMLFileType;
-import org.jetbrains.yaml.psi.YAMLFile;
 import org.yaml.snakeyaml.Yaml;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 
 
-public class AuroraFramework {
+public class GoPlugin {
     // Mapper –≈œ¢ª∫¥Ê
     public static ConcurrentHashMap<String, MapperInfo> Mapper = new ConcurrentHashMap<>();
 
@@ -32,7 +20,7 @@ public class AuroraFramework {
     public static Map<String, List<String>> yaml = new HashMap<>();
 
 
-    protected AuroraFramework() {
+    protected GoPlugin() {
         initYamlConfig();
     }
 

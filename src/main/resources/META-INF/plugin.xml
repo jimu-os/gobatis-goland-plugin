@@ -1,10 +1,9 @@
 <idea-plugin>
     <id>org.aurora.gobatis-goland-plugin</id>
     <name>GoBatis</name>
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="zhiwen_der@qq.com" url="https://gitee.com/aurora-engine/gobatis-goland-plugin">aurora</vendor>
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+   The plugin provides Golang's ORM framework, Gobatis, with code jump functionality and supports SQL syntax in XML files
   ]]></description>
 
     <depends>com.intellij.modules.platform</depends>

@@ -9,10 +9,10 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiFile;
 import org.aurora.gobatis.MapperPsi;
 import org.aurora.key.Key;
-import org.aurora.plugin.GoProject;
-import org.aurora.utils.GoUtil;
+import org.go.GoProject;
+import org.go.GoUtil;
 import org.jetbrains.annotations.NotNull;
-import org.aurora.GoModule.Module;
+import org.go.GoMod;
 
 
 /*
@@ -25,10 +25,10 @@ public class MapperFuncLineMarker implements LineMarkerProvider {
         Project project = psiFile.getProject();
         VirtualFile virtualFile = psiFile.getVirtualFile();
         VirtualFile modRoot = GoUtil.GetGoModRoot(project, virtualFile, Key.go_mod);
-        Module module = GoProject.mods.get(modRoot);
+        GoMod goMod = GoProject.mods.get(modRoot);
         MapperInfo mapperInfo = MapperPsi.isMapperFunction(element);
         if (mapperInfo != null) {
-            module.Mapper.put(mapperInfo.Id(), mapperInfo);
+            goMod.Mapper.put(mapperInfo.Id(), mapperInfo);
             return new LineMarkerInfo<>(
                     element,
                     element.getTextRange(),
