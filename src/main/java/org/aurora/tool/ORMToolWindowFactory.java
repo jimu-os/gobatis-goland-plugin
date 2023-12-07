@@ -9,13 +9,6 @@ import com.intellij.ui.content.ContentFactory;
 import org.jetbrains.annotations.NotNull;
 
 public class ORMToolWindowFactory implements ToolWindowFactory {
-    Project project;
-
-    @Override
-    public boolean isApplicable(@NotNull Project project) {
-        this.project = project;
-        return ToolWindowFactory.super.isApplicable(project);
-    }
 
     @Override
     public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
