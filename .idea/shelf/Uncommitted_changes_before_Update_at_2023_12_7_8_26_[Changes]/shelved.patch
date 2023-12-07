@@ -1,0 +1,152 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e33b1079-970d-4509-94f7-47f472930ee1\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/build.gradle.kts\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/gradle.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/gradlew\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/gradlew.bat\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/settings.gradle.kts\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/AuroraFramework.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/GoModule/Module.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/Icons/AuroraFrameworkIcon.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/Icons/Icons.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/Injector/MapperInjector.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/Injector/SQLHighlightErrorFilter.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/Injector/XMLMapperHighlight.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/MapperPsi.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/MapperTagProvider.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/CreateGoBatisStructAction.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/GoBatisOrmDialog.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/SqlToGoBatis.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/navigation/MapperNavigation.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperAccessibleNameProvider.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperFuncLineMarker.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperFuncMarkHint.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperFuncMgmtNavigationHandler.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperInfo.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/GoBatisContext.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/GoBatisTag.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/MappingTemplate.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisDeleteTag.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisExprAttr.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisIdAttr.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisIfTag.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisInsertTag.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisSelectTag.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisUpdateTag.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/gobatis/xml/GoBatisTag.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/key/Key.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/notify/AuroraNotify.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/plugin/GoProject.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/plugin/Startup.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/ORMToolWindowFactory.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/ORMWindow.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/DefaultOrm.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/OrmBuild.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/SQL_GO.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/SqlToGo.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/abs/AbstractOrm.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/abs/OrmFactory.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/ormImp/gobatis/GoBatis.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/ormImp/gorm/Gorm.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/window/CreateGoStructAction.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/window/GoOrmDialog.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/utils/AuroraUtil.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/utils/GoUtil.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/aurora/utils/PluginUtil.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/Aurora EngineIconMappings.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/delete.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/golang.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/insert.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/mapper.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/net.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/newUI/delete.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/newUI/insert.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/newUI/select.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/newUI/update.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/request.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/select.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/update.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/wails/wailsicon.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/yaml.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/icons/yml.svg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/intentionDescriptions/HttpComment/description.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/intentionDescriptions/MappingTemplate/description.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/liveTemplates/AuroraCode.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/liveTemplates/GoBatisTag.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/liveTemplates/GoBatisXmlTag.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <task path=\"$PROJECT_DIR$\">\r\n          <activation>\r\n            <after_sync>\r\n              <task name=\"setupDependencies\" />\r\n            </after_sync>\r\n          </activation>\r\n        </task>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand />\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GoLibraries\">\r\n    <option name=\"indexEntireGoPath\" value=\"true\" />\r\n  </component>\r\n  <component name=\"LogFilters\">\r\n    <option name=\"FILTER_ERRORS\" value=\"false\" />\r\n    <option name=\"FILTER_WARNINGS\" value=\"false\" />\r\n    <option name=\"FILTER_INFO\" value=\"true\" />\r\n    <option name=\"FILTER_DEBUG\" value=\"true\" />\r\n    <option name=\"CUSTOM_FILTER\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2Z9zdHz1MSo98lOjmdHGBo3DTSR\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showExcludedFiles\" value=\"false\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/src/main/java/org/aurora&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\awen\\Desktop\\Projects\\Java\\gobatis-goland-plugin\\gobatis-goland-plugin\\src\\main\\java\\org\\aurora\" />\r\n      <recent name=\"C:\\Users\\awen\\Desktop\\Projects\\Java\\gobatis-goland-plugin\\gobatis-goland-plugin\\src\\main\\resources\" />\r\n      <recent name=\"C:\\Users\\awen\\Desktop\\Projects\\Java\\gobatis-goland-plugin\\gobatis-goland-plugin\\src\\main\\java\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"org.aurora\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Run Plugin\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <log_file alias=\"idea.log\" path=\"$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log\" />\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" value=\"\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\"runIde\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" value=\"\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>false</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Gradle.Run Plugin\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e33b1079-970d-4509-94f7-47f472930ee1\" name=\"Changes\" comment=\"\" />\r\n      <created>1701849170323</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1701849170323</updated>\r\n      <workItem from=\"1701849171396\" duration=\"5298000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VgoProject\">\r\n    <integration-enabled>false</integration-enabled>\r\n    <settings-migrated>true</settings-migrated>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9f1acf4de9e76ae761013fb50eaa0a3057768994)
++++ b/.idea/workspace.xml	(date 1701908805866)
+@@ -4,88 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/AuroraFramework.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/GoModule/Module.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/Icons/AuroraFrameworkIcon.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/Icons/Icons.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/Injector/MapperInjector.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/Injector/SQLHighlightErrorFilter.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/Injector/XMLMapperHighlight.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/MapperPsi.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/MapperTagProvider.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/CreateGoBatisStructAction.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/GoBatisOrmDialog.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/SqlToGoBatis.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/navigation/MapperNavigation.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperAccessibleNameProvider.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperFuncLineMarker.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperFuncMarkHint.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperFuncMgmtNavigationHandler.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/mark/mapper/func/MapperInfo.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/GoBatisContext.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/GoBatisTag.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/MappingTemplate.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisDeleteTag.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisExprAttr.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisIdAttr.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisIfTag.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisInsertTag.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisSelectTag.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/template/xml/GoBatisUpdateTag.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/xml/GoBatisTag.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/key/Key.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/notify/AuroraNotify.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/plugin/GoProject.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/plugin/Startup.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/ORMToolWindowFactory.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/ORMWindow.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/DefaultOrm.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/OrmBuild.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/SQL_GO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/SqlToGo.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/abs/AbstractOrm.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/abs/OrmFactory.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/ormImp/gobatis/GoBatis.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/ormImp/gorm/Gorm.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/window/CreateGoStructAction.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/window/GoOrmDialog.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/utils/AuroraUtil.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/utils/GoUtil.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/utils/PluginUtil.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/Aurora EngineIconMappings.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/pluginIcon.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/delete.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/golang.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/insert.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/mapper.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/net.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/newUI/delete.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/newUI/insert.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/newUI/select.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/newUI/update.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/request.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/select.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/update.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/wails/wailsicon.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/yaml.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/yml.svg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/intentionDescriptions/HttpComment/description.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/intentionDescriptions/MappingTemplate/description.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/liveTemplates/AuroraCode.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/liveTemplates/GoBatisTag.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/liveTemplates/GoBatisXmlTag.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="update" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -146,14 +65,15 @@
+     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/src/main/java/org/aurora&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/settings.gradle.kts&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+ }</component>
+@@ -206,11 +126,33 @@
+       <option name="presentableId" value="Default" />
+       <updated>1701849170323</updated>
+       <workItem from="1701849171396" duration="5298000" />
++      <workItem from="1701854539935" duration="397000" />
++    </task>
++    <task id="LOCAL-00001" summary="update">
++      <option name="closed" value="true" />
++      <created>1701854627405</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1701854627405</updated>
++    </task>
++    <task id="LOCAL-00002" summary="update">
++      <option name="closed" value="true" />
++      <created>1701854819882</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1701854819882</updated>
+     </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="update" />
++    <option name="LAST_COMMIT_MESSAGE" value="update" />
+   </component>
+   <component name="VgoProject">
+     <integration-enabled>false</integration-enabled>
