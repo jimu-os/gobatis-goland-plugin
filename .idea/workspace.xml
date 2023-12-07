@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="修复加载标记的读取错误">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/Inlay/DemoInlayHintsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/Inlay/InlayHintsProviderFactoryImp.java" afterDir="false" />
+    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/xml/GoBatisTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/xml/GoBatisTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/aurora/plugin/Startup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aurora/plugin/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/SqlToGoBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aurora/gobatis/editor/SqlToGoBatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/SqlToGo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/SqlToGo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/abs/AbstractOrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aurora/tool/orm/abs/AbstractOrm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +33,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gobatis" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -52,6 +54,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
@@ -72,11 +77,14 @@
   <component name="ProjectId" id="2Z9zdHz1MSo98lOjmdHGBo3DTSR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Run Plugin.executor": "Run",
+    "Gradle.gobatis-goland-plugin [setupDependencies].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -85,6 +93,8 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/src/main/java/org/aurora",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -105,7 +115,7 @@
       <recent name="org.aurora" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.gobatis-goland-plugin [build]">
+  <component name="RunManager" selected="Gradle.Run Plugin">
     <configuration name="Run Plugin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <log_file alias="idea.log" path="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" />
       <ExternalSystemSettings>
@@ -175,11 +185,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Run Plugin" />
         <item itemvalue="Gradle.gobatis-goland-plugin [build]" />
         <item itemvalue="Gradle.gobatis-goland-plugin [buildPlugin]" />
-        <item itemvalue="Gradle.Run Plugin" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -192,6 +209,7 @@
       <workItem from="1701849171396" duration="5298000" />
       <workItem from="1701856789989" duration="58000" />
       <workItem from="1701857022563" duration="12531000" />
+      <workItem from="1701909679255" duration="2076000" />
     </task>
     <task id="LOCAL-00001" summary="修复加载标记的读取错误">
       <option name="closed" value="true" />

@@ -60,4 +60,15 @@
         <!--   新UI 图标映射     -->
         <iconMapper mappingFile="Aurora EngineIconMappings.json"/>
     </extensions>
+    <actions>
+        <!-- 根据 sql 生成 Go 结构体 -->
+        <action
+                id="org.aurora.tool.orm.window.CreateGoStructAction"
+                class="org.aurora.tool.orm.window.CreateGoStructAction"
+                text="ORM"
+                description="Create orm"
+                icon="AllIcons.Actions.Edit">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>

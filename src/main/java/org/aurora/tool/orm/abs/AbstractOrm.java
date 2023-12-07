@@ -69,7 +69,7 @@ public abstract class AbstractOrm implements OrmBuild {
             // 解析字段名称
             String fieldName = sqlColumnDefinition.getName();
             // 解析字段类型定义
-            String fieldType = sqlColumnDefinition.getSqlType().toString();
+            String fieldType = sqlColumnDefinition.getDasType().getDescription();
             // 解析主键
             SqlTableKeyDefinition primaryKey = sqlColumnDefinition.getPrimaryKey();
             if (primaryKey!=null){

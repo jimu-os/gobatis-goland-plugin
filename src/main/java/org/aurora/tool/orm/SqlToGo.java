@@ -19,7 +19,7 @@ public class SqlToGo {
         Map<String, String> fields = new HashMap<>();
         for (SqlColumnDefinition sqlColumnDefinition : declaredColumns) {
             String fieldName = sqlColumnDefinition.getName();
-            String fieldType = sqlColumnDefinition.getSqlType().toString();
+            String fieldType = sqlColumnDefinition.getDasType().getDescription();
             fields.put(fieldName, fieldType);
         }
         return fields;
