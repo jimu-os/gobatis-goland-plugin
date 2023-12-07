@@ -1,0 +1,20 @@
+{
+  parserClass="org.aurora.language.parser.SimpleParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="Simple"
+  psiImplClassSuffix="Impl"
+  psiPackage="org.aurora.language.psi"
+  psiImplPackage="org.aurora.language.impl"
+
+  elementTypeHolderClass="org.aurora.language.SimpleTypes"
+  elementTypeClass="org.aurora.language.SimpleElementType"
+  tokenTypeClass="org.aurora.language.SimpleTokenType"
+}
+
+simpleFile ::= item_*
+
+private item_ ::= (property|COMMENT|CRLF)
+
+property ::= (KEY? SEPARATOR VALUE?) | KEY

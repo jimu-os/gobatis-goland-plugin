@@ -59,6 +59,21 @@
 
         <!--   新UI 图标映射     -->
         <iconMapper mappingFile="Aurora EngineIconMappings.json"/>
+
+        <fileType
+                name="Simple File"
+                implementationClass="org.aurora.language.SimpleFileType"
+                fieldName="INSTANCE"
+                language="Simple"
+                extensions="simple"/>
+
+        <lang.parserDefinition
+                language="Simple"
+                implementationClass="org.aurora.language.SimpleParserDefinition"/>
+        <lang.syntaxHighlighterFactory
+                language="Simple"
+                implementationClass="org.aurora.language.SimpleSyntaxHighlighterFactory"/>
+
     </extensions>
     <actions>
         <!-- 根据 sql 生成 Go 结构体 -->

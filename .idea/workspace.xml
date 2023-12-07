@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="update" />
+    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/Simple.bnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleElementType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleFileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleIcons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleLanguage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleLexerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleParserDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleSyntaxHighlighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleSyntaxHighlighterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleTokenSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/SimpleTokenType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,6 +95,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Run Plugin.executor": "Run",
+    "Gradle.gobatis-goland-plugin [build].executor": "Run",
     "Gradle.gobatis-goland-plugin [setupDependencies].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -89,13 +107,16 @@
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/src/main/resources/META-INF",
+    "last_opened_file_path": "C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/src/main/java/org/aurora/language",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Console",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.5166475",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -204,7 +225,10 @@
       <workItem from="1701849171396" duration="5298000" />
       <workItem from="1701856789989" duration="58000" />
       <workItem from="1701857022563" duration="12531000" />
-      <workItem from="1701909679255" duration="3880000" />
+      <workItem from="1701909679255" duration="4661000" />
+      <workItem from="1701918609616" duration="1635000" />
+      <workItem from="1701935544236" duration="1142000" />
+      <workItem from="1701936694839" duration="1271000" />
     </task>
     <task id="LOCAL-00001" summary="修复加载标记的读取错误">
       <option name="closed" value="true" />
@@ -230,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701915365920</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1701915649373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915649373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
