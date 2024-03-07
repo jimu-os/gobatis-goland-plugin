@@ -8,6 +8,8 @@ version = "0.0.1"
 
 repositories {
     mavenCentral()
+    // 配置阿里云仓库
+    maven { url = uri("https://maven.aliyun.com/repository/public") }
 }
 
 sourceSets["main"].java.srcDirs("src/main/gen")
@@ -18,13 +20,13 @@ intellij {
     version.set("2023.3")
     type.set("GO")
     plugins.set(
-            listOf(
-                    "org.jetbrains.plugins.go:233.11799.196",
-                    "org.jetbrains.plugins.yaml:233.11799.165",
-                    "com.jetbrains.restClient",
-                    "org.intellij.intelliLang",
-                    "com.intellij.database"
-            )
+        listOf(
+            "org.jetbrains.plugins.go:233.11799.196",
+            "org.jetbrains.plugins.yaml:233.11799.165",
+            "com.jetbrains.restClient",
+            "org.intellij.intelliLang",
+            "com.intellij.database"
+        )
     )
 
 }
@@ -37,6 +39,7 @@ tasks {
     }
 
     patchPluginXml {
+        // 设置插件对应IDE版本号
         sinceBuild.set("233")
         untilBuild.set("233.*")
     }

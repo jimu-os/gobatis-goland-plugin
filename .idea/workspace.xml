@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="添加自定义语言demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aurora/language/sample.bnf" afterDir="false" />
+    <list default="true" id="e33b1079-970d-4509-94f7-47f472930ee1" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_12_7_8_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023_12_7_8_26__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aurora/key/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aurora/key/Key.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +74,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -94,16 +102,16 @@
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/awen/Desktop/Projects/Java/gobatis-goland-plugin/gobatis-goland-plugin/src/main/java/org/aurora/language",
+    "last_opened_file_path": "D:/Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.5166475",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,7 +126,7 @@
       <recent name="org.aurora" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Run Plugin">
+  <component name="RunManager" selected="Gradle.gobatis-goland-plugin [build]">
     <configuration name="Run Plugin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <log_file alias="idea.log" path="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" />
       <ExternalSystemSettings>
@@ -188,15 +196,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Run Plugin" />
         <item itemvalue="Gradle.gobatis-goland-plugin [build]" />
         <item itemvalue="Gradle.gobatis-goland-plugin [buildPlugin]" />
+        <item itemvalue="Gradle.Run Plugin" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
         <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
       </set>
     </attachedChunks>
@@ -216,6 +226,12 @@
       <workItem from="1701918609616" duration="1635000" />
       <workItem from="1701935544236" duration="1142000" />
       <workItem from="1701936694839" duration="4307000" />
+      <workItem from="1706527870671" duration="169000" />
+      <workItem from="1706886970229" duration="995000" />
+      <workItem from="1709730281346" duration="224000" />
+      <workItem from="1709732871686" duration="812000" />
+      <workItem from="1709817285006" duration="76000" />
+      <workItem from="1709817368801" duration="3179000" />
     </task>
     <task id="LOCAL-00001" summary="修复加载标记的读取错误">
       <option name="closed" value="true" />
@@ -289,5 +305,9 @@
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
