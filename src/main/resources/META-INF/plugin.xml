@@ -73,6 +73,8 @@
         <lang.syntaxHighlighterFactory
                 language="Simple"
                 implementationClass="org.aurora.language.SimpleSyntaxHighlighterFactory"/>
+        <colorSettingsPage
+                implementation="org.aurora.language.SimpleColorSettingsPage"/>
 
     </extensions>
     <actions>
